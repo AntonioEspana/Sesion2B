@@ -1,14 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
- */
 package pkg;
 
 import pkg.Empleado;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -72,7 +64,6 @@ public class EmpleadoTest {
         assertEquals(2500 + 200 + (10 * 30), resultado);
     }
 
-    // ---- Pruebas de calculoNominaNeta ----
     @Test
     void testNeta_Bruta2099_SinRetencion() {
         float resultado = emp.calculoNominaNeta(2099);
