@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author gtaan
+ * @author AntonioEspana
  */
 public class EmpleadoTest {
 
@@ -42,7 +42,6 @@ public class EmpleadoTest {
     private Empleado.TipoEmpleado vendedor = Empleado.TipoEmpleado.Vendedor;
     private Empleado.TipoEmpleado encargado = Empleado.TipoEmpleado.Encargado;
 
-    // ---- Pruebas de calculoNominaBruta ----
     @Test
     void testBruta_Vendedor_Ventas999_SinHoras() {
         float resultado = emp.calculoNominaBruta(vendedor, 999, 0);

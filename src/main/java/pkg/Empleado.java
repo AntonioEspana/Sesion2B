@@ -6,7 +6,7 @@ package pkg;
 
 /**
  *
- * @author gtaan
+ * @author AntonioEspana
  */
 public class Empleado {
 
